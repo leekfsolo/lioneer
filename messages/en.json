@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "title": "Lioneer — Technology for a Greener Planet",
+    "description": "Lioneer builds software that helps people understand and protect the environment. Explore our projects in air quality monitoring, waste classification, and climate insights."
+  },
+  "nav": {
+    "projects": "Projects",
+    "about": "About",
+    "impact": "Impact",
+    "contact": "Contact",
+    "exploreProjects": "Explore Projects",
+    "menu": "Menu"
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggle": "Toggle theme"
+  },
+  "hero": {
+    "title": "Technology for a greener planet",
+    "subtitle": "We build open-source software that monitors air quality, classifies waste, and visualizes climate data — empowering communities to understand and protect their environment.",
+    "cta1": "Explore Projects",
+    "cta2": "Contact Us"
+  },
+  "stats": {
+    "projects": "Projects",
+    "dataPoints": "Data Points Analyzed",
+    "gasTypes": "Gas Types Tracked",
+    "wasteCategories": "Waste Categories"
+  },
+  "projects": {
+    "sectionTitle": "Featured Projects",
+    "sectionSubtitle": "Tools and platforms we're building to help people understand the environment around them.",
+    "learnMore": "Learn more",
+    "filterAll": "All",
+    "filterAirQuality": "Air Quality",
+    "filterWaste": "Waste",
+    "filterClimate": "Climate",
+    "filterTools": "Tools",
+    "statusLive": "Live",
+    "statusBeta": "Beta",
+    "statusComingSoon": "Coming Soon",
+    "airQuality": {
+      "title": "Air Quality & Gas Classification",
+      "description": "Monitors and classifies atmospheric gases including CO₂, CH₄, N₂O, CO, NO₂, SO₂, O₃, and CFCs by source and harm level — distinguishing greenhouse gases from toxic pollutants.",
+      "tags": ["Python", "TensorFlow", "IoT", "API"]
+    },
+    "wasteClassification": {
+      "title": "Smart Waste Classification",
+      "description": "An AI-powered image classifier that sorts trash into Recycling, Plastic (PET, HDPE, PP), Organic, Paper, Glass, Metal, Hazardous, and General waste — with bin color suggestions and disposal tips.",
+      "tags": ["PyTorch", "Computer Vision", "React", "API"]
+    },
+    "climateInsights": {
+      "title": "Climate Change Insights",
+      "description": "Visualizes temperature trends, sea-level rise, and carbon emissions with interactive charts and simple, accessible explanations for everyone.",
+      "tags": ["D3.js", "Next.js", "Open Data", "Charts"]
+    },
+    "carbonFootprint": {
+      "title": "Carbon Footprint Calculator",
+      "description": "Calculate your personal or organizational carbon footprint with our comprehensive tool. Get actionable recommendations to reduce your environmental impact.",
+      "tags": ["TypeScript", "Next.js", "API"]
+    },
+    "waterQuality": {
+      "title": "Water Quality Monitor",
+      "description": "Real-time monitoring of water quality parameters including pH, dissolved oxygen, turbidity, and contaminant levels across rivers, lakes, and coastal areas.",
+      "tags": ["IoT", "Sensors", "Dashboard", "API"]
+    }
+  },
+  "spotlight": {
+    "sectionTitle": "Interactive Demo",
+    "sectionSubtitle": "See how our classification systems work with real examples.",
+    "gasTab": "Gas Classification",
+    "wasteTab": "Waste Classification",
+    "gasSelectLabel": "Select a gas to explore:",
+    "wasteSelectLabel": "Select a waste item:",
+    "type": "Type",
+    "source": "Common Sources",
+    "impact": "Environmental Impact",
+    "level": "Hazard Level",
+    "category": "Category",
+    "binColor": "Bin Color",
+    "disposalTip": "Disposal Tip",
+    "recyclable": "Recyclable"
+  },
+  "gasData": {
+    "co2": {
+      "name": "CO₂ — Carbon Dioxide",
+      "type": "Greenhouse Gas",
+      "source": "Fossil fuel combustion, deforestation, industrial processes",
+      "impact": "Primary driver of global warming. Traps heat in the atmosphere, causing rising temperatures and ocean acidification.",
+      "level": "Moderate"
+    },
+    "ch4": {
+      "name": "CH₄ — Methane",
+      "type": "Greenhouse Gas",
+      "source": "Livestock, rice paddies, landfills, natural gas systems",
+      "impact": "80× more potent than CO₂ over 20 years. Major contributor to near-term climate change.",
+      "level": "Unhealthy"
+    },
+    "no2": {
+      "name": "NO₂ — Nitrogen Dioxide",
+      "type": "Toxic Gas",
+      "source": "Vehicle exhaust, power plants, industrial emissions",
+      "impact": "Irritates airways, worsens asthma, contributes to smog and acid rain. Harms lung development in children.",
+      "level": "Unhealthy"
+    },
+    "so2": {
+      "name": "SO₂ — Sulfur Dioxide",
+      "type": "Toxic Gas",
+      "source": "Coal and oil burning, smelting, volcanic activity",
+      "impact": "Causes acid rain, respiratory illness, and visibility reduction. Damages ecosystems and corrodes buildings.",
+      "level": "Hazardous"
+    },
+    "o3": {
+      "name": "O₃ — Ozone (Ground-Level)",
+      "type": "Toxic Gas",
+      "source": "Formed by sunlight reacting with vehicle/industrial emissions",
+      "impact": "Triggers breathing problems, aggravates asthma, and damages crops. Good in stratosphere, harmful at ground level.",
+      "level": "Moderate"
+    }
+  },
+  "wasteData": {
+    "plasticBottle": {
+      "name": "Plastic Bottle (PET)",
+      "category": "Plastic — Recycling",
+      "binColor": "Yellow",
+      "tip": "Rinse, remove cap, and crush before placing in recycling bin. PET is widely recyclable.",
+      "recyclable": "Yes"
+    },
+    "banana": {
+      "name": "Banana Peel",
+      "category": "Organic — Compost",
+      "binColor": "Green",
+      "tip": "Place in compost or green organic waste bin. Excellent for home composting.",
+      "recyclable": "Compostable"
+    },
+    "battery": {
+      "name": "AA Battery",
+      "category": "Hazardous Waste",
+      "binColor": "Red",
+      "tip": "Never throw in general waste. Take to a hazardous waste collection point or battery recycling drop-off.",
+      "recyclable": "Special Recycling"
+    },
+    "newspaper": {
+      "name": "Newspaper",
+      "category": "Paper — Recycling",
+      "binColor": "Blue",
+      "tip": "Keep dry and clean. Bundle or place flat in paper recycling bin. Avoid if contaminated with food.",
+      "recyclable": "Yes"
+    },
+    "glassJar": {
+      "name": "Glass Jar",
+      "category": "Glass — Recycling",
+      "binColor": "White",
+      "tip": "Rinse clean, remove metal lids. Glass is infinitely recyclable without quality loss.",
+      "recyclable": "Yes"
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "How It Works",
+    "sectionSubtitle": "From data collection to real-world impact, our process is simple and effective.",
+    "step1Title": "Collect Data",
+    "step1Description": "Sensors, satellite imagery, and community reports gather environmental data from around the world.",
+    "step2Title": "Analyze with AI",
+    "step2Description": "Machine learning models classify, predict, and visualize environmental patterns in real time.",
+    "step3Title": "Take Action",
+    "step3Description": "Insights are delivered through dashboards, alerts, and recommendations so communities can act fast."
+  },
+  "about": {
+    "sectionTitle": "About Lioneer",
+    "sectionSubtitle": "Our mission and what drives us forward.",
+    "mission": "We believe technology can be a force for environmental good. Lioneer was founded to bridge the gap between complex environmental data and everyday understanding.",
+    "vision": "Our vision is a world where everyone has access to clear, actionable environmental information — from the air they breathe to the waste they produce.",
+    "values": {
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Every decision we make is guided by its environmental impact. We build tools that encourage sustainable practices."
+      },
+      "openData": {
+        "title": "Open Data",
+        "description": "Environmental data belongs to everyone. We commit to open-source code and publicly accessible datasets."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We push the boundaries of what's possible with AI, IoT, and data visualization to solve environmental challenges."
+      }
+    }
+  },
+  "impact": {
+    "title": "Join us in building a cleaner future",
+    "subtitle": "Whether you're a developer, researcher, educator, or concerned citizen — there's a place for you in the Lioneer community.",
+    "cta": "Get Involved"
+  },
+  "contact": {
+    "sectionTitle": "Get in Touch",
+    "sectionSubtitle": "Have a question, idea, or want to collaborate? We'd love to hear from you.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us what's on your mind…",
+    "submit": "Send Message",
+    "sending": "Sending…",
+    "successTitle": "Message sent!",
+    "successMessage": "Thanks for reaching out. We'll get back to you soon.",
+    "errors": {
+      "nameRequired": "Name is required.",
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageRequired": "Message is required.",
+      "messageMin": "Message must be at least 10 characters."
+    }
+  },
+  "footer": {
+    "tagline": "Building software for a healthier planet.",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© {year} Lioneer. All rights reserved."
+  }
+}

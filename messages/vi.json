@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "title": "Lioneer — Công Nghệ Cho Hành Tinh Xanh",
+    "description": "Lioneer xây dựng phần mềm giúp mọi người hiểu và bảo vệ môi trường. Khám phá các dự án của chúng tôi về giám sát chất lượng không khí, phân loại rác thải và phân tích khí hậu."
+  },
+  "nav": {
+    "projects": "Dự Án",
+    "about": "Giới Thiệu",
+    "impact": "Tác Động",
+    "contact": "Liên Hệ",
+    "exploreProjects": "Khám Phá Dự Án",
+    "menu": "Menu"
+  },
+  "languageSwitcher": {
+    "label": "Ngôn ngữ",
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "theme": {
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống",
+    "toggle": "Chuyển đổi giao diện"
+  },
+  "hero": {
+    "title": "Công nghệ cho hành tinh xanh hơn",
+    "subtitle": "Chúng tôi xây dựng phần mềm mã nguồn mở giám sát chất lượng không khí, phân loại rác thải và trực quan hóa dữ liệu khí hậu — trao quyền cho cộng đồng hiểu và bảo vệ môi trường.",
+    "cta1": "Khám Phá Dự Án",
+    "cta2": "Liên Hệ"
+  },
+  "stats": {
+    "projects": "Dự Án",
+    "dataPoints": "Điểm Dữ Liệu Đã Phân Tích",
+    "gasTypes": "Loại Khí Được Theo Dõi",
+    "wasteCategories": "Danh Mục Rác Thải"
+  },
+  "projects": {
+    "sectionTitle": "Dự Án Nổi Bật",
+    "sectionSubtitle": "Các công cụ và nền tảng chúng tôi đang xây dựng để giúp mọi người hiểu môi trường xung quanh.",
+    "learnMore": "Tìm hiểu thêm",
+    "filterAll": "Tất cả",
+    "filterAirQuality": "Chất Lượng Không Khí",
+    "filterWaste": "Rác Thải",
+    "filterClimate": "Khí Hậu",
+    "filterTools": "Công Cụ",
+    "statusLive": "Hoạt động",
+    "statusBeta": "Beta",
+    "statusComingSoon": "Sắp ra mắt",
+    "airQuality": {
+      "title": "Chất Lượng Không Khí & Phân Loại Khí",
+      "description": "Giám sát và phân loại các loại khí trong khí quyển bao gồm CO₂, CH₄, N₂O, CO, NO₂, SO₂, O₃ và CFC theo nguồn phát và mức độ gây hại — phân biệt khí nhà kính với chất ô nhiễm độc hại.",
+      "tags": ["Python", "TensorFlow", "IoT", "API"]
+    },
+    "wasteClassification": {
+      "title": "Phân Loại Rác Thải Thông Minh",
+      "description": "Bộ phân loại hình ảnh sử dụng AI để phân loại rác thành Tái chế, Nhựa (PET, HDPE, PP), Hữu cơ, Giấy, Thủy tinh, Kim loại, Nguy hại và Rác thải chung — kèm gợi ý màu thùng rác và mẹo xử lý.",
+      "tags": ["PyTorch", "Thị giác máy tính", "React", "API"]
+    },
+    "climateInsights": {
+      "title": "Phân Tích Biến Đổi Khí Hậu",
+      "description": "Trực quan hóa xu hướng nhiệt độ, mực nước biển dâng và phát thải carbon với biểu đồ tương tác và giải thích đơn giản, dễ hiểu cho mọi người.",
+      "tags": ["D3.js", "Next.js", "Dữ liệu mở", "Biểu đồ"]
+    },
+    "carbonFootprint": {
+      "title": "Máy Tính Dấu Chân Carbon",
+      "description": "Tính toán dấu chân carbon cá nhân hoặc tổ chức với công cụ toàn diện của chúng tôi. Nhận khuyến nghị hành động để giảm tác động môi trường.",
+      "tags": ["TypeScript", "Next.js", "API"]
+    },
+    "waterQuality": {
+      "title": "Giám Sát Chất Lượng Nước",
+      "description": "Giám sát thời gian thực các thông số chất lượng nước bao gồm pH, oxy hòa tan, độ đục và nồng độ chất ô nhiễm trên các sông, hồ và vùng ven biển.",
+      "tags": ["IoT", "Cảm biến", "Bảng điều khiển", "API"]
+    }
+  },
+  "spotlight": {
+    "sectionTitle": "Demo Tương Tác",
+    "sectionSubtitle": "Xem cách hệ thống phân loại của chúng tôi hoạt động với các ví dụ thực tế.",
+    "gasTab": "Phân Loại Khí",
+    "wasteTab": "Phân Loại Rác",
+    "gasSelectLabel": "Chọn một loại khí để khám phá:",
+    "wasteSelectLabel": "Chọn một loại rác:",
+    "type": "Loại",
+    "source": "Nguồn Phổ Biến",
+    "impact": "Tác Động Môi Trường",
+    "level": "Mức Độ Nguy Hiểm",
+    "category": "Danh Mục",
+    "binColor": "Màu Thùng Rác",
+    "disposalTip": "Mẹo Xử Lý",
+    "recyclable": "Tái Chế Được"
+  },
+  "gasData": {
+    "co2": {
+      "name": "CO₂ — Carbon Dioxide",
+      "type": "Khí nhà kính",
+      "source": "Đốt nhiên liệu hóa thạch, phá rừng, quy trình công nghiệp",
+      "impact": "Nguyên nhân chính gây nóng lên toàn cầu. Giữ nhiệt trong khí quyển, gây tăng nhiệt độ và axit hóa đại dương.",
+      "level": "Trung bình"
+    },
+    "ch4": {
+      "name": "CH₄ — Methane",
+      "type": "Khí nhà kính",
+      "source": "Chăn nuôi, ruộng lúa, bãi rác, hệ thống khí tự nhiên",
+      "impact": "Mạnh gấp 80 lần CO₂ trong 20 năm. Đóng góp lớn vào biến đổi khí hậu ngắn hạn.",
+      "level": "Không lành mạnh"
+    },
+    "no2": {
+      "name": "NO₂ — Nitrogen Dioxide",
+      "type": "Khí độc",
+      "source": "Khí thải xe cộ, nhà máy điện, phát thải công nghiệp",
+      "impact": "Kích ứng đường hô hấp, làm nặng thêm hen suyễn, góp phần tạo sương mù và mưa axit. Gây hại cho phổi trẻ em.",
+      "level": "Không lành mạnh"
+    },
+    "so2": {
+      "name": "SO₂ — Sulfur Dioxide",
+      "type": "Khí độc",
+      "source": "Đốt than và dầu, luyện kim, hoạt động núi lửa",
+      "impact": "Gây mưa axit, bệnh hô hấp và giảm tầm nhìn. Phá hủy hệ sinh thái và ăn mòn công trình.",
+      "level": "Nguy hiểm"
+    },
+    "o3": {
+      "name": "O₃ — Ozone (Tầng mặt đất)",
+      "type": "Khí độc",
+      "source": "Hình thành khi ánh sáng mặt trời phản ứng với khí thải xe cộ/công nghiệp",
+      "impact": "Gây khó thở, làm nặng hen suyễn và hại mùa màng. Tốt ở tầng bình lưu, có hại ở mặt đất.",
+      "level": "Trung bình"
+    }
+  },
+  "wasteData": {
+    "plasticBottle": {
+      "name": "Chai Nhựa (PET)",
+      "category": "Nhựa — Tái chế",
+      "binColor": "Vàng",
+      "tip": "Rửa sạch, tháo nắp và ép dẹp trước khi bỏ vào thùng tái chế. PET được tái chế rộng rãi.",
+      "recyclable": "Có"
+    },
+    "banana": {
+      "name": "Vỏ Chuối",
+      "category": "Hữu cơ — Phân compost",
+      "binColor": "Xanh lá",
+      "tip": "Bỏ vào thùng compost hoặc rác hữu cơ xanh. Tuyệt vời để ủ phân tại nhà.",
+      "recyclable": "Có thể ủ phân"
+    },
+    "battery": {
+      "name": "Pin AA",
+      "category": "Chất thải nguy hại",
+      "binColor": "Đỏ",
+      "tip": "Không bao giờ bỏ vào rác thường. Mang đến điểm thu gom chất thải nguy hại hoặc điểm tái chế pin.",
+      "recyclable": "Tái chế đặc biệt"
+    },
+    "newspaper": {
+      "name": "Báo",
+      "category": "Giấy — Tái chế",
+      "binColor": "Xanh dương",
+      "tip": "Giữ khô và sạch. Gom lại hoặc đặt phẳng vào thùng tái chế giấy. Tránh nếu bị dính thức ăn.",
+      "recyclable": "Có"
+    },
+    "glassJar": {
+      "name": "Lọ Thủy Tinh",
+      "category": "Thủy tinh — Tái chế",
+      "binColor": "Trắng",
+      "tip": "Rửa sạch, tháo nắp kim loại. Thủy tinh có thể tái chế vô hạn mà không giảm chất lượng.",
+      "recyclable": "Có"
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Cách Hoạt Động",
+    "sectionSubtitle": "Từ thu thập dữ liệu đến tác động thực tế, quy trình của chúng tôi đơn giản và hiệu quả.",
+    "step1Title": "Thu Thập Dữ Liệu",
+    "step1Description": "Cảm biến, hình ảnh vệ tinh và báo cáo cộng đồng thu thập dữ liệu môi trường từ khắp nơi trên thế giới.",
+    "step2Title": "Phân Tích bằng AI",
+    "step2Description": "Các mô hình học máy phân loại, dự đoán và trực quan hóa các xu hướng môi trường theo thời gian thực.",
+    "step3Title": "Hành Động",
+    "step3Description": "Thông tin được cung cấp qua bảng điều khiển, cảnh báo và khuyến nghị để cộng đồng có thể hành động nhanh chóng."
+  },
+  "about": {
+    "sectionTitle": "Về Lioneer",
+    "sectionSubtitle": "Sứ mệnh và động lực thúc đẩy chúng tôi.",
+    "mission": "Chúng tôi tin rằng công nghệ có thể là sức mạnh vì môi trường. Lioneer được thành lập để thu hẹp khoảng cách giữa dữ liệu môi trường phức tạp và sự hiểu biết hàng ngày.",
+    "vision": "Tầm nhìn của chúng tôi là một thế giới nơi mọi người đều có quyền truy cập thông tin môi trường rõ ràng, hành động được — từ không khí họ thở đến rác thải họ tạo ra.",
+    "values": {
+      "sustainability": {
+        "title": "Bền Vững",
+        "description": "Mọi quyết định đều dựa trên tác động môi trường. Chúng tôi xây dựng công cụ khuyến khích thực hành bền vững."
+      },
+      "openData": {
+        "title": "Dữ Liệu Mở",
+        "description": "Dữ liệu môi trường thuộc về tất cả mọi người. Chúng tôi cam kết mã nguồn mở và bộ dữ liệu truy cập công khai."
+      },
+      "innovation": {
+        "title": "Đổi Mới",
+        "description": "Chúng tôi đẩy xa giới hạn của AI, IoT và trực quan hóa dữ liệu để giải quyết các thách thức môi trường."
+      }
+    }
+  },
+  "impact": {
+    "title": "Cùng chúng tôi xây dựng tương lai sạch hơn",
+    "subtitle": "Dù bạn là nhà phát triển, nhà nghiên cứu, giáo viên hay công dân quan tâm — luôn có chỗ cho bạn trong cộng đồng Lioneer.",
+    "cta": "Tham Gia Ngay"
+  },
+  "contact": {
+    "sectionTitle": "Liên Hệ",
+    "sectionSubtitle": "Có câu hỏi, ý tưởng hoặc muốn hợp tác? Chúng tôi rất muốn nghe từ bạn.",
+    "nameLabel": "Tên",
+    "namePlaceholder": "Tên của bạn",
+    "emailLabel": "Email",
+    "emailPlaceholder": "ban@example.com",
+    "messageLabel": "Tin nhắn",
+    "messagePlaceholder": "Hãy cho chúng tôi biết bạn đang nghĩ gì…",
+    "submit": "Gửi Tin Nhắn",
+    "sending": "Đang gửi…",
+    "successTitle": "Đã gửi tin nhắn!",
+    "successMessage": "Cảm ơn bạn đã liên hệ. Chúng tôi sẽ phản hồi sớm.",
+    "errors": {
+      "nameRequired": "Vui lòng nhập tên.",
+      "emailRequired": "Vui lòng nhập email.",
+      "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ.",
+      "messageRequired": "Vui lòng nhập tin nhắn.",
+      "messageMin": "Tin nhắn phải có ít nhất 10 ký tự."
+    }
+  },
+  "footer": {
+    "tagline": "Xây dựng phần mềm cho hành tinh khỏe mạnh hơn.",
+    "projects": "Dự Án",
+    "about": "Giới Thiệu",
+    "contact": "Liên Hệ",
+    "privacy": "Quyền riêng tư",
+    "terms": "Điều khoản",
+    "copyright": "© {year} Lioneer. Bảo lưu mọi quyền."
+  }
+}
